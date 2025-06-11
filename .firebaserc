@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "testing": "testingkelowna-e9d2a",
+    "staging": "statingkelowna-3e73c"
+  },
+  "targets": {},
+  "etags": {}
+}
