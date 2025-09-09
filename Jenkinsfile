@@ -20,9 +20,10 @@ pipeline {
             }
         }
         stage('Production') {
-    steps {
-        sh 'firebase deploy --token "$FIREBASE_TOKEN"'
+            steps {
+                sh 'firebase deploy --token "$FIREBASE_TOKEN" --project fir-use-production'
+            }
+        }
     }
 }
-    }
-}
+
