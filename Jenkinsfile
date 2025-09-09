@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Production') {
             steps {
-                sh 'firebase use production --token "$FIREBASE_TOKEN"'
+                sh 'fir-use-production--token "$FIREBASE_TOKEN"'
             }
         }
     }
